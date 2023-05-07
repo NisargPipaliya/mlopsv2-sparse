@@ -6,7 +6,7 @@ compute: azureml:batch-cluster
 resources:
   instance_count: 1
 max_concurrency_per_instance: 1
-mini_batch_size: 5
+mini_batch_size: 10
 output_action: append_row
 output_file_name: predictions.csv
 retry_settings:
